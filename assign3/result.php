@@ -85,7 +85,7 @@ if ($errors > 1 & $authorize == "no") {
     foreach ($data as $value) {
         $page .= "". $value . "&";
     }
-    $page .= "ageError=" . $ageError;
+    #$page .= "ageError=" . $ageError;
     header("Location: $page");
 }
 

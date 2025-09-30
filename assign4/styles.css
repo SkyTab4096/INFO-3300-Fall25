@@ -2,20 +2,32 @@ body{
     margin: 20px 20px 20px 20px;
     float:none;
  }
- #title{
-    float: left;
-    margin: 5px 20px 0px 00px;
- }
- .data_entry {
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    width:600px;
-    padding: 10px 10px 10px 10px;
+.data_entry {
+   border-style: solid;
+   border-color: black;
+   border-radius: 10px;
+   width:600px;
+   padding: 10px 10px 10px 10px;
 
-    input {}
-
- }
- .errors{
-    color:red;
- } 
+   .textboxInput {
+      width: 90px;
+   }
+}
+.errors{
+   color:red;
+} 
+#title{
+   font-size: xx-large;
+   position: relative;
+   top: -20px;
+   margin-right: 15px;
+}
+#header{
+   padding: 10px;
+   margin-top: -11px;
+   margin-bottom: -5px;
+   img{
+      width: 65px;
+      height: 65px;
+   }
+}
