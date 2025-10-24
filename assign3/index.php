@@ -153,7 +153,7 @@ $errorMessages = array("First name is required", "Last name is required", "Minor
                     </span>
                 </li>
             </ul>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit">Submit</button>
         </form>
     </div>
 </body>
