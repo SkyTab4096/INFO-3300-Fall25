@@ -12,7 +12,7 @@ include 'view/header.php';
                     <a href="books">Books</a>
                 </li>
                 <li>
-                    <a href="checkouts/index.php?action=list_available_books">Checkout</a>
+                    <a href="checkouts">Checkout</a>
                 </li>
                 <li>
                     <a href="waitlists">Waitlist</a>
